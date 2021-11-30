@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.App {
+  font-family: Montserrat;
+  font-weight: 600;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*Desktop View*/
+.header {
+  display: flex;
+  background:#007FFF;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 40px;
+  height: 80px;
+}
+.logo-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  width: 45px;
+  height: 45px;
+}
+.title {
+  font-size: 25px;
+  font-weight: bolder;
+  padding: 0px 0px 5px 15px;
+}
+.nav-options {
+  font-size: 18px;
+  padding-left: 25px;
+  font-weight: bolder;
+  margin:90px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 50px;
+  list-style-type: none;
+  
+}
+.nav-options :active{
+  color:white;
+}
+.mobile-option {
+  display: none;
+}
+
+.option :hover {
+  color: white;
+  transition: transform .2s; 
+  font-size: 22px;
+  overflow: hidden;
+}
+.signin-up {
+  display: flex;
+  padding: 0px 5px;
+  margin-left: 25%;
+  list-style-type: none;
+}
+.sign-in {
+  padding-right: 50px;
+  align-self: center;
+}
+.sign-in :hover {
+  color: white;
+}
+.signup-btn {
+  padding: 10px 10px;
+  height: 2.4rem;
+  border-radius: 3px;
+  background: rgb(61, 58, 75);
+  color: white;
+  cursor: pointer;
+  align-items: center;
+}
+
+.mobile-menu {
+  display: none;
+}
+.note{
+  padding:10px;
+  margin-top: 20px;
+  
+}
+.notesList{
+padding: 10px;
+margin-top: 0px;
+}
+.white{
+  border-radius: 16px;
+}
+.notes-list-heading{
+  margin-top: 0px;
+}
+.detail{
+  padding: 10px;
+  margin-top: 30px;
+}
+.loading-anim{
+  position: fixed; 
+  left: 45%; 
+  top: 50%;
+}
+@media (max-width: 1130px){
+  .signin-up {
+    margin-left: 10%;
+  }
+  .notes-list-heading{
+    margin-top: 65px;
+  }
+}
+@media (max-width: 950px) {
+  /*Mobile View */
+  .header {
+    padding: 0px 10px;
+  }
+  .logo {
+    width: 45px;
+    height: 45px;
+  }
+  
+  .nav-options {
+    display: flex;
+    width: 100%;
+    margin:0px;
+    height: 210px;
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    opacity: 0;
+    transition: all 0.5s ease;
+    flex-direction: column;
+    list-style-type: none;
+    border-radius: 7px;
+    grid-gap: 0px;
+  }
+  .nav-options.active {
+    background: #83848f;
+    color:rgb(61, 58, 75);
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+    align-content: center;
+    padding-left: 0px;
+  }
+
+  .menu-icon {
+    width: 45px;
+    height: 45px;
+  }
+  .option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 12vw;
+    padding: 30px 0px;
+  }
+  .sign-up {
+    background:rgb(61, 58, 75);
+    border-radius: 3px;
+    color: white;
+    padding: 20px 0px;
+    width: 80%;
+    text-align: center;
+    align-self: center;
+    border-radius: 3px;
+  }
+
+  .signin-up {
+    display: none;
+    }
+  }
+  .mobile-menu {
+    display: block;
+  }
+
+  .offset-s1{
+    width: 84%;
+    
+  }
+  .offset-m2{
+    width: 14%;
+  }
+  .offset-s3{
+    width: 100%;
+    align-content: center;
+    height: 50%;
+  }
+  .notes-list-heading{
+    margin-top: 45px;
+  }
+  .material-icons{
+    font-size: 22px;
+    padding-right: 14px;
+    
+  }
