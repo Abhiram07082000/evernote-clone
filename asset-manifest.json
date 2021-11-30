@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/evernote-clone/static/css/main.8ef693bf.chunk.css",
+    "main.js": "/evernote-clone/static/js/main.222fd895.chunk.js",
+    "main.js.map": "/evernote-clone/static/js/main.222fd895.chunk.js.map",
+    "runtime-main.js": "/evernote-clone/static/js/runtime-main.fd2a687e.js",
+    "runtime-main.js.map": "/evernote-clone/static/js/runtime-main.fd2a687e.js.map",
+    "static/js/2.34148b45.chunk.js": "/evernote-clone/static/js/2.34148b45.chunk.js",
+    "static/js/2.34148b45.chunk.js.map": "/evernote-clone/static/js/2.34148b45.chunk.js.map",
+    "index.html": "/evernote-clone/index.html",
+    "static/css/main.8ef693bf.chunk.css.map": "/evernote-clone/static/css/main.8ef693bf.chunk.css.map",
+    "static/js/2.34148b45.chunk.js.LICENSE.txt": "/evernote-clone/static/js/2.34148b45.chunk.js.LICENSE.txt",
+    "static/media/logo.769ea1e0.svg": "/evernote-clone/static/media/logo.769ea1e0.svg",
+    "static/media/menu.0f89c1f4.svg": "/evernote-clone/static/media/menu.0f89c1f4.svg",
+    "static/media/x.f7be7b4f.svg": "/evernote-clone/static/media/x.f7be7b4f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fd2a687e.js",
+    "static/js/2.34148b45.chunk.js",
+    "static/css/main.8ef693bf.chunk.css",
+    "static/js/main.222fd895.chunk.js"
+  ]
+}
